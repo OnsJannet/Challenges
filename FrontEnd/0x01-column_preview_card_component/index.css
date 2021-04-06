@@ -3,4 +3,32 @@
     padding: 0;
 }
 
+.big-container{
+    position: fixed;
+    top: 33%;
+    left: 25%;
+}
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.container h2{
+    font-family: 'Big Shoulders Display', cursive;
+    padding:0px;
+	margin:10px;
+}
+
+.container p{
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    padding:0px;
+	margin:10px;
+}
+
+.container{
+    border-radius: 5px;
+}
