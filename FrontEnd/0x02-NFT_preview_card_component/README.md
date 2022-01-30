@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/OnsJannet/Challenges/blob/main/FrontEnd/0x02-NFT_preview_card_component/README.md)
 - Live Site URL: [Site URL](https://nftcardscomponent.netlify.app/)
 
 ## My process
