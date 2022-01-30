@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+
+ 	/* colors */
+  	--main: hsl(217, 54%, 11%);
+  	--card: hsl(216, 50%, 16%);
+  	--line: hsl(215, 32%, 27%);
+  	--white: hsl(0, 0%, 100%);
+  	--Soft-blue: hsl(215, 51%, 70%);
+  	--cyan: hsl(178, 100%, 50%);
+
+  	/* font */
+  	--card-font:  18px;
+  	--title:  600;
+  	--info: 400;
+  	--paragraph: 300;
+}
+
+html, body {
+	background: var(--main);
+}
+
+.card {
+	background: var(--card);
+	margin: auto;
+	width: 340px;
+	height: 540px;
+	padding: 10px;
+	margin-top: 60px;
+	margin-bottom: 14px;
+	border-radius: 14px;
+}
+
+
+.card-image {
+	display: flex;
+	justify-content: center;
+}
+
+.picture {
+    width: 300px;
+    height: auto;
+    margin: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.overlay {
+    width: 300px;
+    height: 300px;
+    margin: 14px;
+    border-radius: 14px;	
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+  	background-color: var(--cyan);
+  	text-align: center;
+}
+
+.overlay svg {
+	margin-top:  125px;
+}
+
+
+
+.card-image:hover .overlay {
+	opacity: .6;
+}
+
+.card-image:hover .overlay svg {
+	opacity: 1;
+}
+
+.card-title {
+	font-family: 'Outfit', sans-serif;
+	font-weight: var(--title);
+	font-size:  var(--card-font);
+	color: var(--white);
+	margin: 14px;
+	cursor: pointer;
+}
+
+.card-title:hover {
+	color: var(--cyan);
+	
+}
+
+.card-paragraph {
+	font-family: 'Outfit', sans-serif;
+	font-weight: var(--paragraph);
+	font-size:  var(--card-font);
+	color: var(--Soft-blue);
+	margin: 14px;
+}
+
+.card-info {
+	font-family: 'Outfit', sans-serif;
+	font-weight: var(--info);
+	font-size:  var(--card-font);
+	margin: 14px;
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+}
+
+.ETH {
+	color: var(--cyan);
+	font-weight: var(--title);
+}
+
+.ETH svg{
+	padding-right: 4px;
+}
+
+.days {
+	margin-left: 28%;
+	color: var(--Soft-blue);
+
+}
+
+.days svg{
+	padding-right: 4px;
+}
+
+hr {
+	width: 300px;
+	margin: 14px;
+	color: var(--line);
+}
+
+.card-creator {
+	font-family: 'Outfit', sans-serif;
+	font-weight: var(--info);
+	font-size:  var(--card-font);
+	color: var(--Soft-blue);
+	margin: 14px;
+}
+
+.cr-pic {
+    height:28px;
+    width:28px;
+	border: 1px solid var(--white);
+	border-radius: 20px;
+	float:left;
+	margin:0 2%;
+}
+
+.text {
+	margin-left: 18%;
+
+}
+
+span {
+	color: var(--white);
+	cursor: pointer;
+}
+
+span:hover {
+	color: var(--cyan);
+}
+
