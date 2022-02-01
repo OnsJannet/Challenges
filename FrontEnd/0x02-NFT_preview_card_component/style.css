@@ -134,11 +134,14 @@ hr {
 	font-size:  var(--card-font);
 	color: var(--Soft-blue);
 	margin: 14px;
+  	display: flex;
+  	justify-content: flex-start;
+  	align-items: center;	
 }
 
 .cr-pic {
-    height:28px;
-    width:28px;
+    height:38px;
+    width:38px;
 	border: 1px solid var(--white);
 	border-radius: 20px;
 	float:left;
@@ -146,7 +149,7 @@ hr {
 }
 
 .text {
-	margin-left: 18%;
+	margin-left: 1rem;
 
 }
 
